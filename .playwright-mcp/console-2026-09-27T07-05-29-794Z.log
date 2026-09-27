@@ -1,0 +1,2 @@
+[    1051ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ https://sauce-demo.myshopify.com/account/login:0
+[    2308ms] [ERROR] Provider's accounts list is empty. @ https://sauce-demo.myshopify.com/account/login:0

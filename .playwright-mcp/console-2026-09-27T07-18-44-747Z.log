@@ -1,0 +1,10 @@
+[    7256ms] [INFO] Clear-Site-Data header on 'https://sauce-demo.myshopify.com/cart/add.js': Cleared data types: "prefetchCache", "prerenderCache". @ https://sauce-demo.myshopify.com/products/grey-jacket:0
+[    7487ms] TypeError: Cannot read properties of null (reading 'description')
+    at Object.<anonymous> (https://sauce-demo.myshopify.com/cdn/shop/t/2/assets/jquery.theme.js?v=42021284561027497791425319943:1:29646)
+    at st.each (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:1:15879)
+    at Shopify.onCartUpdate (https://sauce-demo.myshopify.com/cdn/shop/t/2/assets/jquery.theme.js?v=42021284561027497791425319943:1:29440)
+    at Object.success (https://sauce-demo.myshopify.com/cdn/shop/t/2/assets/jquery.theme.js?v=42021284561027497791425319943:1:24005)
+    at f (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:1:18278)
+    at Object.fireWith [as resolveWith] (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:1:19064)
+    at r (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:3:16009)
+    at XMLHttpRequest.r (https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js:3:21638)

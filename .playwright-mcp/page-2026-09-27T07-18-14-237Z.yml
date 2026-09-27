@@ -1,0 +1,137 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - search:
+          - button "Submit" [ref=e6] [cursor=pointer]
+          - textbox "Search" [ref=e7]
+      - navigation [ref=e9]:
+        - link "Search" [ref=e10] [cursor=pointer]:
+          - /url: /search
+        - link "About Us" [ref=e11] [cursor=pointer]:
+          - /url: /pages/about-us
+        - link "Log In" [ref=e12] [cursor=pointer]:
+          - /url: /account/login
+        - link "Sign up" [ref=e13] [cursor=pointer]:
+          - /url: /account/register
+      - generic [ref=e15]:
+        - link "My Cart (0)" [ref=e16] [cursor=pointer]:
+          - /url: "#"
+        - link "Check Out" [ref=e17] [cursor=pointer]:
+          - /url: /cart
+    - generic [ref=e20]:
+      - heading [level=1] [ref=e22]:
+        - link [ref=e23] [cursor=pointer]:
+          - /url: /
+          - img "Sauce Demo" [ref=e24]
+      - heading "Just a demo site showing off what Sauce can do." [level=3] [ref=e27]
+  - generic [ref=e28]:
+    - navigation [ref=e30]:
+      - list [ref=e31]:
+        - listitem [ref=e32]:
+          - link "Home" [ref=e33] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e34]:
+          - link "Catalog" [ref=e35] [cursor=pointer]:
+            - /url: /collections/all
+        - listitem [ref=e36]:
+          - link "Blog" [ref=e37] [cursor=pointer]:
+            - /url: /blogs/news
+        - listitem [ref=e38]:
+          - link "About Us" [ref=e39] [cursor=pointer]:
+            - /url: /pages/about-us
+        - listitem [ref=e40]:
+          - link "Wish list" [ref=e41] [cursor=pointer]:
+            - /url: "#sauce-show-wish-list"
+        - listitem [ref=e42]:
+          - link "Refer a friend" [ref=e43] [cursor=pointer]:
+            - /url: "#sauce-show-refer-friend"
+      - generic [ref=e44]:
+        - link [ref=e45] [cursor=pointer]:
+          - /url: http://www.facebook.com/shopify
+        - link [ref=e46] [cursor=pointer]:
+          - /url: http://www.twitter.com/sauce_io
+        - link [ref=e47] [cursor=pointer]:
+          - /url: http://www.instagram.com/shopify
+        - link [ref=e48] [cursor=pointer]:
+          - /url: http://www.pinterest.com/chrisjhoughton/awesome-facebook-integration/
+        - link [ref=e49] [cursor=pointer]:
+          - /url: /blogs/news.atom
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - link "Home" [ref=e54] [cursor=pointer]:
+          - /url: /
+        - text: —
+        - link "News" [ref=e55] [cursor=pointer]:
+          - /url: /blogs/news
+      - article [ref=e57]:
+        - generic [ref=e58]:
+          - text: "12"
+          - generic [ref=e59]: Mar
+        - generic [ref=e60]:
+          - heading [level=2] [ref=e61]:
+            - link "First Post" [ref=e62] [cursor=pointer]:
+              - /url: /blogs/news/12832805-first-post
+          - generic [ref=e63]: Posted by Shopify
+          - generic [ref=e65]:
+            - paragraph [ref=e66]: This is your store’s blog. You can use it to talk about new product launches, experiences, tips or other news you want your customers to read about.
+            - paragraph [ref=e67]:
+              - text: You can check out Shopify’s
+              - link "ecommerce blog" [ref=e68] [cursor=pointer]:
+                - /url: http://www.shopify.com/blog
+              - text: for inspiration and advice for your own store and for your store’s blog.
+            - paragraph [ref=e69]:
+              - strong [ref=e70]: How do I remove this post?
+              - text: Log in to your store’s
+              - link "admin area" [ref=e71] [cursor=pointer]:
+                - /url: /admin
+              - text: then go to the blog section to delete this post.
+            - paragraph [ref=e72]:
+              - strong [ref=e73]: Why use Shopify?
+              - link "Shopify" [ref=e74] [cursor=pointer]:
+                - /url: http://www.shopify.com/
+              - text: gives you everything you need to
+              - link "sell online" [ref=e75] [cursor=pointer]:
+                - /url: http://www.shopify.com/tour/sell-online
+              - text: and run an online store. Pick an
+              - link "ecommerce template" [ref=e76] [cursor=pointer]:
+                - /url: http://www.shopify.com/tour/website-design
+              - text: ", add your products, then launch your store to the world. Shopify includes"
+              - link "ecommerce hosting" [ref=e77] [cursor=pointer]:
+                - /url: http://www.shopify.com/tour/ecommerce-hosting
+              - text: ", a"
+              - link "shopping cart software" [ref=e78] [cursor=pointer]:
+                - /url: http://www.shopify.com/tour/shopping-cart
+              - text: ", and more."
+            - paragraph
+    - contentinfo [ref=e79]:
+      - generic [ref=e80]:
+        - navigation [ref=e82]:
+          - heading "Footer" [level=2] [ref=e83]
+          - link "Search" [ref=e84] [cursor=pointer]:
+            - /url: /search
+          - link "About Us" [ref=e85] [cursor=pointer]:
+            - /url: /pages/about-us
+        - generic [ref=e87]:
+          - heading "About Us" [level=2] [ref=e88]
+          - paragraph [ref=e90]:
+            - strong [ref=e91]:
+              - text: This is a demo site created for
+              - link "Sauce" [ref=e92] [cursor=pointer]:
+                - /url: http://sauceapp.io
+            - text: ", an awesome new way to make your Shopify site social. Sauce allows you to let customers to share what they purchase to their friends, and see what their friends have purchased or \"wanted\" on your store."
+        - generic [ref=e94]:
+          - img "We accept Amex" [ref=e95]
+          - img "We accept Visa" [ref=e96]
+          - img "We accept Mastercard" [ref=e97]
+      - generic [ref=e98]:
+        - generic [ref=e100]:
+          - text: Copyright © 2026 Sauce Demo.
+          - link "Shopping Cart by Shopify" [ref=e101] [cursor=pointer]:
+            - /url: https://www.shopify.co.uk/tour/shopping-cart?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - text: .
+        - navigation [ref=e103]:
+          - link "Search" [ref=e104] [cursor=pointer]:
+            - /url: /search
+          - link "About Us" [ref=e105] [cursor=pointer]:
+            - /url: /pages/about-us

@@ -1,0 +1,126 @@
+- generic [active] [ref=f18e1]:
+  - banner [ref=f18e2]:
+    - generic [ref=f18e3]:
+      - generic [ref=f18e5]:
+        - search:
+          - button "Submit" [ref=f18e6] [cursor=pointer]
+          - textbox "Search" [ref=f18e7]
+      - navigation [ref=f18e9]:
+        - link "Search" [ref=f18e10] [cursor=pointer]:
+          - /url: /search
+        - link "About Us" [ref=f18e11] [cursor=pointer]:
+          - /url: /pages/about-us
+        - link "Log In" [ref=f18e12] [cursor=pointer]:
+          - /url: /account/login
+        - link "Sign up" [ref=f18e13] [cursor=pointer]:
+          - /url: /account/register
+      - generic [ref=f18e15]:
+        - link "My Cart (0)" [ref=f18e16] [cursor=pointer]:
+          - /url: "#"
+        - link "Check Out" [ref=f18e17] [cursor=pointer]:
+          - /url: /cart
+    - generic [ref=f18e20]:
+      - heading [level=1] [ref=f18e22]:
+        - link [ref=f18e23] [cursor=pointer]:
+          - /url: /
+          - img "Sauce Demo" [ref=f18e24]
+      - heading "Just a demo site showing off what Sauce can do." [level=3] [ref=f18e27]
+  - generic [ref=f18e28]:
+    - navigation [ref=f18e30]:
+      - list [ref=f18e31]:
+        - listitem [ref=f18e32]:
+          - link "Home" [ref=f18e33] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=f18e34]:
+          - link "Catalog" [ref=f18e35] [cursor=pointer]:
+            - /url: /collections/all
+        - listitem [ref=f18e36]:
+          - link "Blog" [ref=f18e37] [cursor=pointer]:
+            - /url: /blogs/news
+        - listitem [ref=f18e38]:
+          - link "About Us" [ref=f18e39] [cursor=pointer]:
+            - /url: /pages/about-us
+        - listitem [ref=f18e40]:
+          - link "Wish list" [ref=f18e41] [cursor=pointer]:
+            - /url: "#sauce-show-wish-list"
+        - listitem [ref=f18e42]:
+          - link "Refer a friend" [ref=f18e43] [cursor=pointer]:
+            - /url: "#sauce-show-refer-friend"
+      - generic [ref=f18e44]:
+        - link [ref=f18e45] [cursor=pointer]:
+          - /url: http://www.facebook.com/shopify
+        - link [ref=f18e46] [cursor=pointer]:
+          - /url: http://www.twitter.com/sauce_io
+        - link [ref=f18e47] [cursor=pointer]:
+          - /url: http://www.instagram.com/shopify
+        - link [ref=f18e48] [cursor=pointer]:
+          - /url: http://www.pinterest.com/chrisjhoughton/awesome-facebook-integration/
+        - link [ref=f18e49] [cursor=pointer]:
+          - /url: /blogs/news.atom
+    - generic [ref=f18e51]:
+      - generic [ref=f18e52]:
+        - link "Home" [ref=f18e54] [cursor=pointer]:
+          - /url: /
+        - text: —
+        - link "Search" [ref=f18e55] [cursor=pointer]:
+          - /url: /search
+      - heading "Search Results" [level=1] [ref=f18e56]
+      - generic [ref=f18e57]: Showing results for jacket
+      - generic [ref=f18e58]:
+        - link [ref=f18e60] [cursor=pointer]:
+          - /url: /products/grey-jacket?_pos=1&_sid=3da880750&_ss=r
+          - img "Grey jacket" [ref=f18e61]
+          - heading "Grey jacket" [level=3] [ref=f18e62]
+          - heading "£55.00" [level=4] [ref=f18e63]
+        - link [ref=f18e65] [cursor=pointer]:
+          - /url: /products/noir-jacket?_pos=2&_sid=3da880750&_ss=r
+          - img "Noir jacket" [ref=f18e66]
+          - heading "Noir jacket" [level=3] [ref=f18e67]
+          - heading "£60.00" [level=4] [ref=f18e68]
+        - link [ref=f18e70] [cursor=pointer]:
+          - /url: /products/flower-print-jeans?_pos=3&_sid=3da880750&_ss=r
+          - img "Black heels" [ref=f18e71]
+          - heading "Black heels" [level=3] [ref=f18e72]
+          - heading "£45.00" [level=4] [ref=f18e73]
+        - link [ref=f18e75] [cursor=pointer]:
+          - /url: /products/striped-top?_pos=4&_sid=3da880750&_ss=r
+          - img "Striped top" [ref=f18e76]
+          - heading "Striped top" [level=3] [ref=f18e77]
+          - heading "£50.00" [level=4] [ref=f18e78]
+        - link "Sold Out Brown Shades Brown Shades £20.00" [ref=f18e80] [cursor=pointer]:
+          - /url: /products/brown-shades?_pos=5&_sid=3da880750&_ss=r
+          - generic [ref=f18e81]: Sold Out
+          - img "Brown Shades" [ref=f18e82]
+          - heading "Brown Shades" [level=3] [ref=f18e83]
+          - heading "£20.00" [level=4] [ref=f18e84]
+    - contentinfo [ref=f18e85]:
+      - generic [ref=f18e86]:
+        - navigation [ref=f18e88]:
+          - heading "Footer" [level=2] [ref=f18e89]
+          - link "Search" [ref=f18e90] [cursor=pointer]:
+            - /url: /search
+          - link "About Us" [ref=f18e91] [cursor=pointer]:
+            - /url: /pages/about-us
+        - generic [ref=f18e93]:
+          - heading "About Us" [level=2] [ref=f18e94]
+          - paragraph [ref=f18e96]:
+            - strong [ref=f18e97]:
+              - text: This is a demo site created for
+              - link "Sauce" [ref=f18e98] [cursor=pointer]:
+                - /url: http://sauceapp.io
+            - text: ", an awesome new way to make your Shopify site social. Sauce allows you to let customers to share what they purchase to their friends, and see what their friends have purchased or \"wanted\" on your store."
+        - generic [ref=f18e100]:
+          - img "We accept Amex" [ref=f18e101]
+          - img "We accept Visa" [ref=f18e102]
+          - img "We accept Mastercard" [ref=f18e103]
+      - generic [ref=f18e104]:
+        - generic [ref=f18e106]:
+          - text: Copyright © 2026 Sauce Demo.
+          - link "Shopping Cart by Shopify" [ref=f18e107] [cursor=pointer]:
+            - /url: https://www.shopify.co.uk/tour/shopping-cart?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - text: .
+        - navigation [ref=f18e109]:
+          - link "Search" [ref=f18e110] [cursor=pointer]:
+            - /url: /search
+          - link "About Us" [ref=f18e111] [cursor=pointer]:
+            - /url: /pages/about-us

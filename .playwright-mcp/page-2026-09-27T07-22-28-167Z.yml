@@ -1,0 +1,136 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - search:
+          - button "Submit" [ref=e6] [cursor=pointer]
+          - textbox "Search" [ref=e7]
+      - navigation [ref=e9]:
+        - link "Search" [ref=e10] [cursor=pointer]:
+          - /url: /search
+        - link "About Us" [ref=e11] [cursor=pointer]:
+          - /url: /pages/about-us
+        - link "Log In" [ref=e12] [cursor=pointer]:
+          - /url: /account/login
+        - link "Sign up" [ref=e13] [cursor=pointer]:
+          - /url: /account/register
+      - generic [ref=e15]:
+        - link "My Cart (0)" [ref=e16] [cursor=pointer]:
+          - /url: "#"
+        - link "Check Out" [ref=e17] [cursor=pointer]:
+          - /url: /cart
+    - generic [ref=e20]:
+      - heading [level=1] [ref=e22]:
+        - link [ref=e23] [cursor=pointer]:
+          - /url: /
+          - img "Sauce Demo" [ref=e24]
+      - heading "Just a demo site showing off what Sauce can do." [level=3] [ref=e27]
+  - generic [ref=e28]:
+    - navigation [ref=e30]:
+      - list [ref=e31]:
+        - listitem [ref=e32]:
+          - link "Home" [ref=e33] [cursor=pointer]:
+            - /url: /
+        - listitem [ref=e34]:
+          - link "Catalog" [ref=e35] [cursor=pointer]:
+            - /url: /collections/all
+        - listitem [ref=e36]:
+          - link "Blog" [ref=e37] [cursor=pointer]:
+            - /url: /blogs/news
+        - listitem [ref=e38]:
+          - link "About Us" [ref=e39] [cursor=pointer]:
+            - /url: /pages/about-us
+        - listitem [ref=e40]:
+          - link "Wish list" [ref=e41] [cursor=pointer]:
+            - /url: "#sauce-show-wish-list"
+        - listitem [ref=e42]:
+          - link "Refer a friend" [ref=e43] [cursor=pointer]:
+            - /url: "#sauce-show-refer-friend"
+      - generic [ref=e44]:
+        - link [ref=e45] [cursor=pointer]:
+          - /url: http://www.facebook.com/shopify
+        - link [ref=e46] [cursor=pointer]:
+          - /url: http://www.twitter.com/sauce_io
+        - link [ref=e47] [cursor=pointer]:
+          - /url: http://www.instagram.com/shopify
+        - link [ref=e48] [cursor=pointer]:
+          - /url: http://www.pinterest.com/chrisjhoughton/awesome-facebook-integration/
+        - link [ref=e49] [cursor=pointer]:
+          - /url: /blogs/news.atom
+    - generic [ref=e51]:
+      - generic [ref=e52]:
+        - link "Home" [ref=e54] [cursor=pointer]:
+          - /url: /
+        - text: —
+        - link "Products" [ref=e55] [cursor=pointer]:
+          - /url: /collections/all
+      - heading "Products" [level=1] [ref=e56]
+      - generic [ref=e57]:
+        - link [ref=e59] [cursor=pointer]:
+          - /url: /collections/all/products/flower-print-jeans
+          - img "Black heels" [ref=e60]
+          - heading "Black heels" [level=3] [ref=e61]
+          - heading "£45.00" [level=4] [ref=e62]
+        - link [ref=e64] [cursor=pointer]:
+          - /url: /collections/all/products/bronze-sandals
+          - img "Bronze sandals" [ref=e65]
+          - heading "Bronze sandals" [level=3] [ref=e66]
+          - heading "£39.99" [level=4] [ref=e67]
+        - link "Sold Out Brown Shades Brown Shades £20.00" [ref=e69] [cursor=pointer]:
+          - /url: /collections/all/products/brown-shades
+          - generic [ref=e70]: Sold Out
+          - img "Brown Shades" [ref=e71]
+          - heading "Brown Shades" [level=3] [ref=e72]
+          - heading "£20.00" [level=4] [ref=e73]
+        - link [ref=e75] [cursor=pointer]:
+          - /url: /collections/all/products/grey-jacket
+          - img "Grey jacket" [ref=e76]
+          - heading "Grey jacket" [level=3] [ref=e77]
+          - heading "£55.00" [level=4] [ref=e78]
+        - link [ref=e80] [cursor=pointer]:
+          - /url: /collections/all/products/noir-jacket
+          - img "Noir jacket" [ref=e81]
+          - heading "Noir jacket" [level=3] [ref=e82]
+          - heading "£60.00" [level=4] [ref=e83]
+        - link [ref=e85] [cursor=pointer]:
+          - /url: /collections/all/products/striped-top
+          - img "Striped top" [ref=e86]
+          - heading "Striped top" [level=3] [ref=e87]
+          - heading "£50.00" [level=4] [ref=e88]
+        - link "Sold Out White sandals White sandals £25.00" [ref=e90] [cursor=pointer]:
+          - /url: /collections/all/products/white-sandals
+          - generic [ref=e91]: Sold Out
+          - img "White sandals" [ref=e92]
+          - heading "White sandals" [level=3] [ref=e93]
+          - heading "£25.00" [level=4] [ref=e94]
+    - contentinfo [ref=e95]:
+      - generic [ref=e96]:
+        - navigation [ref=e98]:
+          - heading "Footer" [level=2] [ref=e99]
+          - link "Search" [ref=e100] [cursor=pointer]:
+            - /url: /search
+          - link "About Us" [ref=e101] [cursor=pointer]:
+            - /url: /pages/about-us
+        - generic [ref=e103]:
+          - heading "About Us" [level=2] [ref=e104]
+          - paragraph [ref=e106]:
+            - strong [ref=e107]:
+              - text: This is a demo site created for
+              - link "Sauce" [ref=e108] [cursor=pointer]:
+                - /url: http://sauceapp.io
+            - text: ", an awesome new way to make your Shopify site social. Sauce allows you to let customers to share what they purchase to their friends, and see what their friends have purchased or \"wanted\" on your store."
+        - generic [ref=e110]:
+          - img "We accept Amex" [ref=e111]
+          - img "We accept Visa" [ref=e112]
+          - img "We accept Mastercard" [ref=e113]
+      - generic [ref=e114]:
+        - generic [ref=e116]:
+          - text: Copyright © 2026 Sauce Demo.
+          - link "Shopping Cart by Shopify" [ref=e117] [cursor=pointer]:
+            - /url: https://www.shopify.co.uk/tour/shopping-cart?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+          - text: .
+        - navigation [ref=e119]:
+          - link "Search" [ref=e120] [cursor=pointer]:
+            - /url: /search
+          - link "About Us" [ref=e121] [cursor=pointer]:
+            - /url: /pages/about-us

@@ -1,0 +1,2 @@
+[    7384ms] [INFO] Clear-Site-Data header on 'https://sauce-demo.myshopify.com/cart': Cleared data types: "prefetchCache", "prerenderCache". @ https://sauce-demo.myshopify.com/cart:0
+[   12009ms] [INFO] Clear-Site-Data header on 'https://sauce-demo.myshopify.com/cart/change?line=1&quantity=0': Cleared data types: "prefetchCache", "prerenderCache". @ https://sauce-demo.myshopify.com/cart:0
