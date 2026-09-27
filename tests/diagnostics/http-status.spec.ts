@@ -150,7 +150,7 @@ ${sections}
 }
 
 test.describe('HTTP status diagnostics', () => {
-  test('TC10: Storefront pages and same-origin APIs do not return HTTP 400 or higher', { tag: '@diagnostics' }, async ({ page }, testInfo) => {
+  test('TC10: Storefront pages and same-origin APIs do not return HTTP 400 or higher', { tag: ['@diagnostics', '@network'] }, async ({ page }, testInfo) => {
     const origin = new URL(storefrontUrl).origin;
     const responses: HttpResponseRecord[] = [];
     const failures: HttpFailure[] = [];
